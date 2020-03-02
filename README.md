@@ -1,8 +1,10 @@
 
 # CEPH PG UPGRADE
 
-This script is used to slowly increase pgs in Ceph clusters without manual intervention, since the autoscale of PG was introduced only on Nautilus.
+This script is used to slowly increase pgs in Ceph clusters without manual intervention, since the autoscale of PG was introduced from Nautilus.
 By default it will increase pg and pgp one by one and the impact on the users is minimal (tested with serveral ceph clusters)
+
+**Currentyl doesnt work on Nautilus**
 
 ### Prerequisites
 
